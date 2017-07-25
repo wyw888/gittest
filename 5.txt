@@ -1,0 +1,18 @@
+1.2 添加Git Config 内容
+
+进入git bash终端， 输入如下命令：
+git config --global credential.helper store
+
+执行完后查看%HOME%目录下的.gitconfig文件，会多了一项：
+[credential] helper = store
+
+重新开启git bash会发现git push时不用再输入用户名和密码
+
+2.方法二
+
+2.1 添加环境变量
+
+作者：鸟麦
+链接：http://www.jianshu.com/p/f54053afecf2
+來源：简书
+著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。
